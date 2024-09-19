@@ -13,6 +13,6 @@ t = {2, 3, 4, 5, 7}
 
 #print(s | t)
 
-print ({i for i in s|t})
+#print ({i for i in s|t})
 
 print({i**2 for i in s | t if i > 2})
