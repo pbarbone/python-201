@@ -12,3 +12,10 @@
 # {0: [0, 0, 0], 1: [0, 0, 1], 2: [0, 1, 0], 3: [0, 1, 1], ...,
 # 7: [1, 1, 1], 8: [1, 0, 0, 0], 9: [1, 0, 0, 1], ...,
 # 999: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1]}
+
+# Base 10
+
+#print({i : i**2 for i in range(10)})
+
+#convert i into a string then iterate over it
+print({i : [int(digit) for digit in str(i)] for i in range(11)})

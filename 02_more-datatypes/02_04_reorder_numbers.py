@@ -6,3 +6,14 @@
 #
 # Example input:  1,2,3,4,5,6,7,8,9,10
 # Example output: 2,4,6,8,10,9,7,5,3,1
+
+# Read in 10 numbers from the user.
+numbers = []
+for i in range(10):
+    number = int(input("Enter a number: "))
+    numbers.append(number)
+
+# Print out the second number received, followed by the 4th,
+
+print(numbers[1], numbers[3], numbers[5], numbers[7], numbers[9])
+

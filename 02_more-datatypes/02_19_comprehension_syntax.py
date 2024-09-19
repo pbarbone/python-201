@@ -6,3 +6,11 @@
 # but try to do it using a list comprehension.
 
 word = "codingnomads"
+
+#spelled_out = list(word)
+#print(spelled_out)
+
+# using list comprehension
+spelled_out = [letter for letter in word]
+
+print(spelled_out)

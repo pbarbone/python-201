@@ -4,6 +4,8 @@
 # already defined in the `codingnomads/` folder.
 
 
+from codingnomads import ingredients as i
+from codingnomads.recipes import soup as s
 
 
 digestible = i.prepare(i.potato)

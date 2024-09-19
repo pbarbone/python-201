@@ -3,3 +3,8 @@
 
 colors = ["neon orange", "spring green"]
 sizes = ["S", "M", "L"]
+
+cartesian_product = [(color, size) for color in colors for size in sizes]
+
+for item in cartesian_product:
+    print(item)

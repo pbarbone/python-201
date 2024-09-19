@@ -7,4 +7,19 @@
 
 from resources import randlist
 
-print(randlist)
+#print("Enter how many random numbers you want to generate: ")
+#num = int(input())
+
+random_list = randlist
+
+largest = max(random_list)
+
+print(random_list)
+print(f"The largest number in the list is: {largest}")
+
+#find the product of all the numbers in the list
+product = 1
+for num in random_list:
+    product *= num
+
+print(f"The product of all the numbers in the list is: {product}")
