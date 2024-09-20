@@ -5,7 +5,7 @@ sorted_list = []
 
 for x in range(1, len(unsorted_list)):
 
-    minimum = unsorted_list[0][0]
+    minimum = unsorted_list[0][1]
     index = 0
 
     for i in range(1, len(unsorted_list)):
